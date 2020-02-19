@@ -41,7 +41,8 @@ public class UserLogin extends JFrame {
                     e.printStackTrace();
                 }
             }
-        });
+        }
+        );
     }
     public UserLogin() {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);;
@@ -119,7 +120,9 @@ public class UserLogin extends JFrame {
                     sqlException.printStackTrace();
             }
         }
-     });
+     }
+     );
+     
      contentPane.add(btnNewButton);
      label = new JLabel("");
      label.setBounds(0, 0, 1008, 562);

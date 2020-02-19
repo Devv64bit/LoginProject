@@ -83,7 +83,8 @@ public class ChangePassword extends JFrame {
                 }
 
             }
-        });
+        }
+        );
         btnSearch.setFont(new Font("Tahoma", Font.PLAIN, 29));
         btnSearch.setBackground(new Color(240, 240, 240));
         btnSearch.setBounds(438, 127, 170, 59);
